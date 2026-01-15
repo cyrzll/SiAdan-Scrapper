@@ -12,6 +12,21 @@ Bot WhatsApp yang terintegrasi dengan **Web Mahasiswa** (Sistem Informasi Akadem
 -   **Broadcast:** Mengirim pesan ke semua pengguna saat bot baru dijalankan.
 -   **LID Mapping:** Dukungan untuk nomor WhatsApp anonim (LID) dengan verifikasi otomatis/manual.
 
+## Teknologi & Library
+
+### Backend
+-   **Runtime:** Node.js
+-   **Framework:** Express.js
+-   **Bot Engine:** @whiskeysockets/baileys (WhatsApp Web API)
+-   **Scraping:** Puppeteer (Headless Chrome)
+-   **Database:** SQLite3
+-   **Utilities:** Dotenv, QRCode Terminal, Cors, JSDOM
+
+### Dashboard (Frontend)
+-   **Framework:** Next.js (React)
+-   **Styling:** Tailwind CSS, PostCSS
+-   **Icons:** Lucide React
+
 ## Prasyarat
 
 -   Node.js (v18+)
